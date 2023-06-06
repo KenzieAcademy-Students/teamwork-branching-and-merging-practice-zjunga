@@ -1,0 +1,29 @@
+/* Write your CSS Here. */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20rem;
+  margin: auto;
+}
+
+.cell {
+  box-sizing: border-box;
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.number-2 {
+  background: lightpink;
+}
+
+.number-4 {
+  background: lightsalmon;
+}
+
+.number-8 {
+  background: lightcoral;
+}
